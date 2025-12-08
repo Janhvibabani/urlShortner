@@ -1,11 +1,13 @@
 package com.urlShortner.urlShortner.models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
 @Entity
+@AllArgsConstructor
 @Data
 @Table(name = "clickEvent")
 public class ClickEvent {
