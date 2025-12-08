@@ -7,7 +7,6 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Entity
-@AllArgsConstructor
 @Data
 @Table(name = "clickEvent")
 public class ClickEvent {
